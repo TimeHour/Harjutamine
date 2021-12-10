@@ -35,9 +35,8 @@ var tellimus = {
 let tont = 0
 
 for (var i = 0; i < tellimus["rows"].length; i += 1) {
-    let koguSumma = tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"];
-        console.log("Name: "+tellimus["rows"][i]["name"]+" Amount: "+ tellimus["rows"][i]["amount"]+" Price: "+ tellimus["rows"][i]["price"]+" Full price: "+ koguSumma);
-    (tont += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
+    let terveSumma = tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"];
+        console.log("Name: "+tellimus["rows"][i]["name"]+" Amount: "+ tellimus["rows"][i]["amount"]+" Price: "+ tellimus["rows"][i]["price"]+" Full price: "+ terveSumma);
+        (tont += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"] ))
 }
-
-console.log("Summa oli", tont,"siis käibemaks oli",tont-tont/1.2)
+console.log("täishind on",tont,"sellest käibemaks on" ,tont-tont/1.2)

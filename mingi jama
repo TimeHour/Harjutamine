@@ -35,14 +35,14 @@ var tellimus = {
 for (var i = 0; i < tellimus["rows"].length; i += 1) {
          console.log("Name: "+tellimus["rows"][i]["name"]+" Amount: "+ tellimus["rows"][i]["amount"]+" Price: "+ tellimus["rows"][i]["price"]+" Full price: "+ tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"])
 }
-let sus = 0
+let lol = 0
 for (var i = 0; i < tellimus["rows"].length; i += 1) {
-       (sus += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
+       (lol += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
 }
 
 
 
-///////teine variant
+///////teine variant////////////////
 
 
 var tellimus = { 
@@ -73,18 +73,18 @@ var tellimus = {
       "article_id": 23421, 
       "name": "Kohvikapslid Nescafe Dolce Gusto Latte Macchiato, 194 g, 16 tk", 
       "product_code": "000000000501267301", 
-      "price": 5.825, 
+      c"prie": 5.825, 
       "amount": 1, 
       "vat": 0.2 
     } 
   ] 
 }
-let sus = 0
+let tont = 0
 
 for (var i = 0; i < tellimus["rows"].length; i += 1) {
     let koguSumma = tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"];
         console.log("Name: "+tellimus["rows"][i]["name"]+" Amount: "+ tellimus["rows"][i]["amount"]+" Price: "+ tellimus["rows"][i]["price"]+" Full price: "+ koguSumma);
-    (sus += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
+    (tont += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]))
 }
 
-console.log("Summ ma on", sus,"ja sellest käibemaks on",sus-sus/1.2)
+console.log("Summa oli", tont,"siis käibemaks oli",tont-tont/1.2)

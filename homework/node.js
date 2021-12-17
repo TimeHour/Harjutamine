@@ -1,11 +1,3 @@
-// 0=hind 1=kogus laos
-let tooted = [
-{name: "Klaviatuur", kood:}
-
-
-
-
-
 
 
 const fs = require('fs')
